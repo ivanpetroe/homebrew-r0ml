@@ -41,7 +41,7 @@ class Pljava < Formula
     Append the following two lines to the end of postgresql.conf
     
     dynamic_library_path = '$libdir:#{HOMEBREW_PREFIX}/lib'
-    pljava.classpath='#{HOMEBREW_PREFIX}/pljava.jar'
+    pljava.classpath='#{HOMEBREW_PREFIX}/lib/pljava.jar'
 
     then restart postgres (pg_ctl restart).
 
